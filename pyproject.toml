@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "prf-geographic-heatmap"
+version = "1.0.0"
+description = "Mapa de calor interativo baseado em dados abertos da PRF sobre acidentes."
+authors = ["pab-h <dev.pab.2020@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
